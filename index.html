@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color #f1f1f1;
+            padding: 20px;
+        }
+        .tabs {
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+        .tab button {
+            background-color: inherit;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        .tabcontent {
+            display: none;
+            clear: both;
+        }
+    </style>
+    </head>
+    </body>
+
+    <header>
+        <h1>Thalita Santos</h1>
+        <p>Me chamo Thalita, tenho 23 anos, sou de Santos - São Paulo. Estou cursando Analise e Desenvolvimento de Sistema na faculdade Uninter.</p>
+        <img src="d:\Thalita\Downloads\ads.PNG"
+    </header>
+
+
+        <ul>
+
+        <a href="formacao.html">Formação</a></li>
+        <a href="vidapessoal.html">Vida Pessoal</a></li>
+        <a href="portfolio.html">Portfólio</a></li>
+        <a href="contato.html">Contato</a></li>
+        <a href="formulario.html">Formulario</a></li>
+        </ul>
+        <head>
+            <title>Data e Hora</title>
+            <script>
+                function mostrarDataHora() {
+                    const agora = new Date();
+                    document.getElementById("dataHora").innerHTML = agora.toLocaleString();
+                }
+            </script>
+        </head>
+        <body>
+            <h1 id="dataHora">Clique no botão para ver a data e hora atuais.</h1>
+            <button onclick="mostrarDataHora()">Mostrar Data e Hora</button>
+        </body>
+        </html>
+
+           

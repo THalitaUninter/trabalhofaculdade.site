@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color #f1f1f1;
+            padding: 20px;
+        }
+        .tabs {
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+        .tab button {
+            background-color: inherit;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        .tabcontent {
+            display: none;
+            clear: both;
+        }
+    </style>
+    </head>
+    </body>
+
+    <header>
+        <h1>Formulario</h1>
+        <p>Responda o Formulario.</p>
+    </header>
+
+    <body>    
+     
+        <form action=""  method="">
+            <table>
+            
+                <tr>
+                    <th><label for="nome">Linguagem que você mais gosta:</label></th>                   
+                    <td><input type="checkbox"> HTML <input type="checkbox"> SQLServer <input type="checkbox"> JavaScript <input type="checkbox"> Python <input type="checkbox"> C++ </td>
+                    <td><input type="checkbox"> TypeScript <input type="checkbox"> C# <input type="checkbox"> Java</td>                   
+                </tr>
+                <tr>
+                    <th><label< for="nome"> Nome Completo:</label></th>
+                    <td><input type="text" name="nome" id="nome"</td>
+                </tr>
+                <tr>
+                    <th><label for="email">E-mail:</label></th>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="msg">Digite sua mensagem</label></th>
+                    <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> <button>Enviar</button></td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
